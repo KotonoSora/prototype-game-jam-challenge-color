@@ -1,0 +1,49 @@
+{
+  "name": "kotonosora-prototype-game-jam-color",
+  "description": "Pixel Sunflower - Game Jam.",
+  "version": "1.0.0-beta-1",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:KotonoSora/prototype-game-jam-challenge-color.git"
+  },
+  "author": "KotonoSora <noravpnproton@proton.me> (https://github.com/KotonoSora/)",
+  "license": "AGPL-3.0",
+  "licenseUrl": "https://github.com/KotonoSora/prototype-game-jam-challenge-color?tab=AGPL-3.0-1-ov-file",
+  "bugs": {
+    "url": "https://github.com/KotonoSora/prototype-game-jam-challenge-color/issues"
+  },
+  "homepage": "https://github.com/KotonoSora/prototype-game-jam-challenge-color?tab=readme-ov-file",
+  "keywords": [
+    "phaser",
+    "phaser3",
+    "react",
+    "vite",
+    "kotonosora",
+    "Game Jam",
+    "Pixel Sunflower"
+  ],
+  "scripts": {
+    "dev": "vite --config vite/config.dev.mjs",
+    "build": "vite build --config vite/config.prod.mjs"
+  },
+  "dependencies": {
+    "phaser": "3.86.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "4.3.1",
+    "@types/node": "22.8.1",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "@vitejs/plugin-react": "4.3.1",
+    "eslint": "8.57.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-react": "7.34.2",
+    "eslint-plugin-react-hooks": "4.6.2",
+    "eslint-plugin-react-refresh": "0.4.7",
+    "terser": "5.28.1",
+    "vite": "5.3.1"
+  }
+}
